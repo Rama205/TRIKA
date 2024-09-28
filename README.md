@@ -26,6 +26,7 @@ Route - GET /products: Returns a list of products with relevant fields.
           React: For building the user interface
           Axios: For making HTTP requests
           ReactPaginate: For pagination
+          style :css
           
   **Backend**
       Node.js: JavaScript runtime
