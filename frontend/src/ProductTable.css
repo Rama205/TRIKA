@@ -79,5 +79,63 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+  /* Styles for desktop (default) */
+.product-table-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .product-table-container {
+    width: 90%;
+  }
   
+  .product-table th,
+  .product-table td {
+    padding: 6px;
+  }
+  
+  .delete-selected {
+    padding: 8px 12px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .product-table-container {
+    width: 100%;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-table th,
+  .product-table td {
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .delete-selected {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .pagination {
+    flex-direction: column;
+  }
+
+  .pagination li {
+    margin: 5px 0;
+  }
+
+  .selected-count p {
+    font-size: 14px;
+  }
+}
+
   
